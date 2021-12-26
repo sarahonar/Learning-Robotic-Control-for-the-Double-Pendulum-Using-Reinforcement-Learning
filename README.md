@@ -1,1 +1,4 @@
 # Learning-Robotic-Control-for-the-Double-Pendulum-Using-Reinforcement-Learning
+
+In this project, reinforcement learning methods were applied to find a control policy for the classic control task of swinging up a double pendulum (acrobot). The
+acrobot system includes two links and two joints, where only the joint between the two links is actuated and the goal is to swing up the second link to a certain height. The data used in this paper is obtained from the OpenAI Gym, Acrobot-v1 environment simulator. At each time step, in this environment, the agent chooses an action and receives a reward until it reaches to the desired height or the maximum number of steps is reached. The objective for the acrobot is to reach to the target height with the shortest number of steps to maximize the cumulative reward. To achieve this aim, three of well-known techniques in reinforcement learning: Q-learning, policy gradient, and actor-critic have been implemented and compared.
